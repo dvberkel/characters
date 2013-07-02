@@ -35,6 +35,8 @@ enourmous influential gain.
 #+end_src
 
 #+begin_src bash :tangle tags.sh :padline no
+#! /usr/bin/env bash
+
 git tag | sort -r > tags.txt
 git add tags.txt
 #+end_src
