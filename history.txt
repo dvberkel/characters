@@ -1,9 +1,4 @@
-#+TITLE Drax Plunkett
-#+AUTHOR Daan van Berkel
 
-Drax Plunkett is a character played in a role playing session
-
-#+begin_src shell :tangle history.txt
 Drax Plunkett was born in a  nameless village in a long forgotten
 country. There was nothing peculiar about the boy besides that he was
 very likable. It was not uncommon for him to be given things just
@@ -32,4 +27,3 @@ Baron of San Marino for the services for the Queen.
 With his new found title he is able to travel alot easier spreading
 the gospell of The church of the prosporous planets, thereby gaining
 enourmous influential gain.
-#+end_src
