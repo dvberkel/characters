@@ -33,3 +33,7 @@ With his new found title he is able to travel alot easier spreading
 the gospell of The church of the prosporous planets, thereby gaining
 enourmous influential gain.
 #+end_src
+
+#+begin_src bash :tangle tags.sh
+git tag | sort -r > tags.txt
+#+end_src
