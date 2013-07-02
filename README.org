@@ -1,0 +1,35 @@
+#+TITLE Drax Plunkett
+#+AUTHOR Daan van Berkel
+
+Drax Plunkett is a character played in a role playing session
+
+#+begin_src :tangle history.txt
+Drax Plunkett was born in a  nameless village in a long forgotten
+country. There was nothing peculiar about the boy besides that he was
+very likable. It was not uncommon for him to be given things just
+because he was so charming. Drax learned early on in his live how to
+manipulate people.
+
+While a visiting Psychologist of the church of the prosperous planets
+traveled through Drax's town she witnessed the boys raw talent and
+took him as an apprentice. Soon he surpassed his tutors and soon the
+Church had a huge following. It was then that Drax's other talents
+became apparent: that of running a prosperous business.
+
+With growing influence of  the Church of the Prosperous Planets came
+the influential people. High officials, legislators, even kings, all
+wanted to known what their future had in store for them. Drax while in
+rank was a lower disicple, often was granted the important task.
+
+Because of this a king of a small country requested that Drax would
+join his court for the occasionel counseling. In these years Drax
+perfected his skills while gaining influence within the kingdom. Be
+prospecting various important chamberlaine he learned how to be a
+practicing phycisian. As payment Drax requested that a small peninsula
+was made an enclave named San Marino and gained an accompanying title
+Baron of San Marino for the services for the Queen.
+
+With his new found title he is able to travel alot easier spreading
+the gospell of The church of the prosporous planets, thereby gaining
+enourmous influential gain.
+#+end_src
