@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hfs6xnys:-1akbb73d17yky" version="2">
 	<created_date>Apr 21, 2013</created_date>
-	<modified_date>Aug 3, 2013 1:00 PM</modified_date>
+	<modified_date>Aug 11, 2013 1:41 PM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<name>Docter Drax Plunkett</name>
@@ -22,6 +22,7 @@
 		<notes>Fit: +1 applies also to Carousing and Sex Appeal
 Sextant: +1 to navigation (stars)
 Star Map: +1 to navigation (stars)
+Doctors bag: +1 to Physician, +1 to Surgery
 
 Enthrallment (B191)
 Public Speacking
@@ -38,7 +39,33 @@ With growing influence of  the Church of the Prosperous Planets came the influen
 
 Because of this a king of a small country requested that Drax would join his court for the occasionel counseling. In these years Drax perfected his skills while gaining influence within the kingdom. Be prospecting various important chamberlaine he learned how to be a practicing phycisian. As payment Drax requested that a small peninsula was made an enclave named San Marino and gained an accompanying title Baron of San Marino for the services for the Queen.
 
-With his new found title he is able to travel alot easier spreading the gospell of The church of the prosporous planets, thereby gaining enourmous influential gain.</notes>
+With his new found title he is able to travel alot easier spreading the gospell of The church of the prosporous planets, thereby gaining enourmous influential gain.
+
+French Expressions:
+Ah bon - I see
+A la limite - in pinch
+a mon avus - in my opinion
+au contraire - on the contratry
+au faut - by the way
+bien entendu - obviously
+bien sur
+Bon debarras - good riddance
+ca marche - ok it works
+ca m'est egal - its all the same to me
+ca ne fait rien - never mind, it does not matter
+ce n'est pas grave
+en effet - indeed that's right
+entre chien et loup - at dusk
+et patatie et patata - and so on and so forth
+je n'en reviens pas - I can not believe it
+je n'y peux rien - there is nothing I can do about it
+je n'y suis pour rien - its got nothing to do with me.
+je t'aime - i love you
+n'importe quoi - whatever
+on ne sait jamais - you never know
+par contre - on the other hand
+par exemple - for example
+pas mal - not bad</notes>
 		<!-- The portrait is a PNG file encoded as Base64. -->
 		<portrait>
 iVBORw0KGgoAAAANSUhEUgAAAJAAAADACAYAAADryOpPAABoWElEQVR42u3dZbBtWXX28XwA0tBI
@@ -1398,7 +1425,7 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 			<name>Astronomy</name>
 			<tech_level>4</tech_level>
 			<difficulty>IQ/H</difficulty>
-			<points>2</points>
+			<points>1</points>
 			<reference>B179</reference>
 			<categories>
 				<category>Natural Science</category>
@@ -2254,6 +2281,46 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 			</prereq_list>
 		</skill>
 		<skill version="2">
+			<name>Surgery</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>1</points>
+			<reference>B223</reference>
+			<categories>
+				<category>Medical</category>
+			</categories>
+			<prereq_list all="no">
+				<skill_prereq has="yes">
+					<name compare="is">first aid</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+				<skill_prereq has="yes">
+					<name compare="is">physician</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+			</prereq_list>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-12</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physiology</name>
+				<modifier>-8</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
 			<name>Sway Emotions</name>
 			<difficulty>Will/H</difficulty>
 			<points>1</points>
@@ -2502,6 +2569,16 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 				<legality_class>4</legality_class>
 				<value>500</value>
 				<weight>2 lb</weight>
+				<skill_bonus>
+					<name compare="is">Physician</name>
+					<specialization compare="is anything"></specialization>
+					<amount>1</amount>
+				</skill_bonus>
+				<skill_bonus>
+					<name compare="is">Surgery</name>
+					<specialization compare="is anything"></specialization>
+					<amount>1</amount>
+				</skill_bonus>
 				<equipment version="3" state="equipped">
 					<quantity>1</quantity>
 					<description>Stethoscoop</description>
@@ -2607,17 +2684,6 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 					<legality_class>4</legality_class>
 					<value>0</value>
 				</equipment>
-				<equipment version="3" state="not_carried">
-					<quantity>1</quantity>
-					<description>Equipment</description>
-					<legality_class>4</legality_class>
-					<value>0</value>
-				</equipment>
-				<equipment_container version="3" open="yes" state="not_carried">
-					<description>Equipment</description>
-					<legality_class>4</legality_class>
-					<value>0</value>
-				</equipment_container>
 			</equipment_container>
 		</equipment_container>
 		<equipment version="3" state="equipped">
