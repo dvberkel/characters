@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hfs6xnys:-1akbb73d17yky" version="2">
 	<created_date>Apr 21, 2013</created_date>
-	<modified_date>Aug 11, 2013 1:41 PM</modified_date>
+	<modified_date>Aug 21, 2013 7:09 PM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<name>Docter Drax Plunkett</name>
@@ -18,7 +18,7 @@
 		<gender>Male</gender>
 		<race>Human</race>
 		<tech_level>4</tech_level>
-		<religion>Church of the Prosperous Planets</religion>
+		<religion>Creach</religion>
 		<notes>Fit: +1 applies also to Carousing and Sex Appeal
 Sextant: +1 to navigation (stars)
 Star Map: +1 to navigation (stars)
@@ -33,39 +33,16 @@ Public Speacking
 
 Drax Plunkett was born in a  nameless village in a long forgotten country. There was nothing peculiar about the boy besides that he was very likable. It was not uncommon for him to be given things just because he was so charming. Drax learned early on in his live how to manipulate people.
 
-While a visiting Psychologist of the church of the prosperous planets traveled through Drax's town she witnessed the boys raw talent and took him as an apprentice. Soon he surpassed his tutors and soon the Church had a huge following. It was then that Drax's other talents became apparent: that of running a prosperous business.
+While a visiting Disciple of the church of Creach traveled through Drax's town she witnessed the boys raw talent and took him as an apprentice. Soon he surpassed his tutors and soon the Church had a huge following. It was then that Drax's other talents became apparent: that of running a prosperous business.
 
-With growing influence of  the Church of the Prosperous Planets came the influential people. High officials, legislators, even kings, all wanted to known what their future had in store for them. Drax while in rank was a lower disicple, often was granted the important task.
+With growing influence of  the Church of Creach came the influential people. High officials, legislators, even kings, all wanted to known what their future had in store for them. Drax while in rank was a lower disicple, often was granted the important task.
 
-Because of this a king of a small country requested that Drax would join his court for the occasionel counseling. In these years Drax perfected his skills while gaining influence within the kingdom. Be prospecting various important chamberlaine he learned how to be a practicing phycisian. As payment Drax requested that a small peninsula was made an enclave named San Marino and gained an accompanying title Baron of San Marino for the services for the Queen.
+Because of this Senetor Alexander Dalius Mishra requested that Drax would join his house for the occasionel counseling. In this period Drax perfected his skills while gaining influence within the senate. Be prospecting various important chamberlaine he learned how to be a practicing phycisian. As payment Drax requested that a small peninsula was made an enclave named San Marino and gained an accompanying title Baron of San Marino for the services for the Queen.
 
 With his new found title he is able to travel alot easier spreading the gospell of The church of the prosporous planets, thereby gaining enourmous influential gain.
 
-French Expressions:
-Ah bon - I see
-A la limite - in pinch
-a mon avus - in my opinion
-au contraire - on the contratry
-au faut - by the way
-bien entendu - obviously
-bien sur
-Bon debarras - good riddance
-ca marche - ok it works
-ca m'est egal - its all the same to me
-ca ne fait rien - never mind, it does not matter
-ce n'est pas grave
-en effet - indeed that's right
-entre chien et loup - at dusk
-et patatie et patata - and so on and so forth
-je n'en reviens pas - I can not believe it
-je n'y peux rien - there is nothing I can do about it
-je n'y suis pour rien - its got nothing to do with me.
-je t'aime - i love you
-n'importe quoi - whatever
-on ne sait jamais - you never know
-par contre - on the other hand
-par exemple - for example
-pas mal - not bad</notes>
+Proverb
+It is all about the Flux</notes>
 		<!-- The portrait is a PNG file encoded as Base64. -->
 		<portrait>
 iVBORw0KGgoAAAANSUhEUgAAAJAAAADACAYAAADryOpPAABoWElEQVR42u3dZbBtWXX28XwA0tBI
@@ -736,7 +713,7 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 				</skill_bonus>
 			</advantage>
 			<advantage version="2">
-				<name>Language: Common</name>
+				<name>Language: Uhmbrisch</name>
 				<type>Mental</type>
 				<modifier version="1">
 					<name>Native</name>
@@ -813,7 +790,7 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 				</prereq_list>
 			</advantage>
 			<advantage version="2">
-				<name>Language: English</name>
+				<name>Language: Dooor</name>
 				<type>Mental</type>
 				<modifier version="1" enabled="no">
 					<name>Native</name>
@@ -890,7 +867,7 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 				</prereq_list>
 			</advantage>
 			<advantage version="2">
-				<name>Language: French</name>
+				<name>Language: Perquec</name>
 				<type>Mental</type>
 				<modifier version="1" enabled="no">
 					<name>Native</name>
@@ -1121,6 +1098,39 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
+			<advantage version="2">
+				<name>Clerical Investment</name>
+				<type>Social</type>
+				<base_points>5</base_points>
+				<reference>B43</reference>
+				<notes>Creach</notes>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Rank</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>5</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>Replaces Status</name>
+					<cost type="points">5</cost>
+					<affects>levels_only</affects>
+					<reference>B29</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Courtesy</name>
+					<cost type="points">-4</cost>
+					<affects>levels_only</affects>
+					<reference>B29</reference>
+				</modifier>
+				<reference>B29</reference>
+				<notes>Creach</notes>
+				<categories>
+					<category>Advantage</category>
+				</categories>
+			</advantage>
 		</advantage_container>
 		<advantage_container version="2" open="yes">
 			<name>Disadvantages</name>
@@ -1149,6 +1159,35 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 				<base_points>-5</base_points>
 				<cr>6</cr>
 				<reference>B128</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Delusion</name>
+				<type>Mental</type>
+				<modifier version="1" enabled="no">
+					<name>Minor: @Belief@</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+					<reference>B130</reference>
+					<notes>Reaction -1</notes>
+				</modifier>
+				<modifier version="1">
+					<name>Major: Thinks he is Messiah</name>
+					<cost type="points">-10</cost>
+					<affects>total</affects>
+					<reference>B130</reference>
+					<notes>Reaction -2</notes>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Severe: @Belief@</name>
+					<cost type="points">-15</cost>
+					<affects>total</affects>
+					<reference>B130</reference>
+					<notes>Reaction -3</notes>
+				</modifier>
+				<reference>B130</reference>
 				<categories>
 					<category>Disadvantage</category>
 				</categories>
@@ -1290,47 +1329,6 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 				<name>Mixes languages to look interesting</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Color</name>
-			<modifier version="1">
-				<name>Modifier</name>
-				<cost type="multiplier">0</cost>
-			</modifier>
-			<notes>GM ruled these color for the character</notes>
-			<advantage version="2">
-				<name>Clerical Investment</name>
-				<type>Social</type>
-				<base_points>5</base_points>
-				<reference>B43</reference>
-				<notes>Church of the Prosperous Planets</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Rank</name>
-				<type>Physical</type>
-				<levels>1</levels>
-				<points_per_level>5</points_per_level>
-				<modifier version="1" enabled="no">
-					<name>Replaces Status</name>
-					<cost type="points">5</cost>
-					<affects>levels_only</affects>
-					<reference>B29</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Courtesy</name>
-					<cost type="points">-4</cost>
-					<affects>levels_only</affects>
-					<reference>B29</reference>
-				</modifier>
-				<reference>B29</reference>
-				<notes>Prosperous Planets Counselor</notes>
-				<categories>
-					<category>Advantage</category>
-				</categories>
 			</advantage>
 		</advantage_container>
 	</advantage_list>
@@ -2331,7 +2329,7 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 		</skill>
 		<skill version="2">
 			<name>Theology</name>
-			<specialization>PP</specialization>
+			<specialization>Creach</specialization>
 			<difficulty>IQ/H</difficulty>
 			<points>1</points>
 			<reference>B226</reference>
