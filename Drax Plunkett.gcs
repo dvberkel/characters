@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="hfs6xnys:-1akbb73d17yky" version="2">
 	<created_date>Apr 21, 2013</created_date>
-	<modified_date>Jul 5, 2014 3:05 PM</modified_date>
+	<modified_date>Jul 26, 2014 10:28 AM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<name>Docter Drax Plunkett</name>
@@ -543,7 +543,7 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 	</profile>
 	<HP>2</HP>
 	<FP>0</FP>
-	<total_points>237</total_points>
+	<total_points>241</total_points>
 	<ST>8</ST>
 	<DX>10</DX>
 	<IQ>16</IQ>
@@ -1293,16 +1293,6 @@ KfWpvpQcON645+zusP//AwrD1k27CtFYAAAAAElFTkSuQmCC
 				<base_points>-5</base_points>
 				<cr>12</cr>
 				<reference>B153</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
-				<name>Squeamish</name>
-				<type>Physical</type>
-				<base_points>-10</base_points>
-				<cr>12</cr>
-				<reference>B156</reference>
 				<categories>
 					<category>Disadvantage</category>
 				</categories>
