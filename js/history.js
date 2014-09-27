@@ -17,6 +17,7 @@
 		writeHistory(container, xhr.responseText);
 	    }
 	}
+	xhr.overrideMimeType('text/plain');
 	xhr.open('GET', character + '-history.txt', true);
 	xhr.send();
     });

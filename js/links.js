@@ -70,6 +70,7 @@
 	    }
 	}
     }
+    xhr.overrideMimeType('text/plain');
     xhr.open('GET', 'tags.txt', true);
     xhr.send();
 
