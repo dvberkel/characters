@@ -8,7 +8,7 @@
 	}
     };
 
-    ['drax'].forEach(function(character){
+    ['kevin', 'drax'].forEach(function(character){
 	var container = document.getElementById(character + '-history');
 
 	var xhr = new XMLHttpRequest();
