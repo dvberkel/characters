@@ -1,6 +1,7 @@
 (function(undefined){
     charactersData = {};
     charactersData['drax'] = { name: 'Drax Plunkett', file: 'Drax%20Plunkett'};
+    charactersData['kevin'] = { name: 'Kevin Heist', file: 'Kevin%20Heist'};
 
     (function nameLinks(){
 	var links = document.getElementsByTagName('a');
