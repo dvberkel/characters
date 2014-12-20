@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i089uc14:-o43yvckujvk5" version="2">
 	<created_date>Sep 18, 2014</created_date>
-	<modified_date>Sep 27, 2014 3:53 PM</modified_date>
+	<modified_date>Dec 20, 2014 5:02 PM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<name>Kevin Heist</name>
@@ -424,7 +424,7 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 					<amount>1</amount>
 				</attribute_bonus>
 				<attribute_bonus>
-					<attribute>fright_check</attribute>
+					<attribute>fright check</attribute>
 					<amount>2</amount>
 				</attribute_bonus>
 			</advantage>
@@ -634,13 +634,13 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 				<modifier version="1" enabled="no">
 					<name>Replaces Status</name>
 					<cost type="points">5</cost>
-					<affects>levels_only</affects>
+					<affects>levels only</affects>
 					<reference>B29</reference>
 				</modifier>
 				<modifier version="1" enabled="no">
 					<name>Courtesy</name>
 					<cost type="points">-4</cost>
-					<affects>levels_only</affects>
+					<affects>levels only</affects>
 					<reference>B29</reference>
 				</modifier>
 				<reference>B29</reference>
@@ -890,13 +890,13 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 			<weapon_bonus>
 				<name compare="is">Boxing</name>
 				<specialization compare="is anything"></specialization>
-				<level compare="at_least">1</level>
+				<level compare="at least">1</level>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 			<weapon_bonus>
 				<name compare="is">Boxing</name>
 				<specialization compare="is anything"></specialization>
-				<level compare="at_least">2</level>
+				<level compare="at least">2</level>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
@@ -1404,7 +1404,7 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 			<weight>10 lb</weight>
 			<reference>B288</reference>
 			<prereq_list all="yes">
-				<contained_weight_prereq has="yes" compare="at_most">100 lb</contained_weight_prereq>
+				<contained_weight_prereq has="yes" compare="at most">100 lb</contained_weight_prereq>
 			</prereq_list>
 			<equipment version="3" state="equipped">
 				<quantity>1</quantity>
@@ -1984,15 +1984,15 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 		</equipment>
 	</equipment_list>
 	<print_settings units="in">
-		<orientation>Portrait</orientation>
+		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
 		<top_margin>0.5</top_margin>
 		<left_margin>0.5</left_margin>
 		<bottom_margin>0.5</bottom_margin>
 		<right_margin>0.5</right_margin>
-		<ink_chromaticity>Monochrome</ink_chromaticity>
-		<sides>Single</sides>
-		<quality>Normal</quality>
+		<ink_chromaticity>monochrome</ink_chromaticity>
+		<sides>single</sides>
+		<quality>normal</quality>
 	</print_settings>
 </character>
