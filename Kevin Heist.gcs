@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character unique_id="i089uc14:-o43yvckujvk5" version="2">
 	<created_date>Sep 18, 2014</created_date>
-	<modified_date>Dec 20, 2014 5:02 PM</modified_date>
+	<modified_date>Mar 14, 2015 6:53 AM</modified_date>
 	<profile>
 		<player_name>dvberkel</player_name>
 		<name>Kevin Heist</name>
@@ -382,7 +382,7 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
-	<total_points>184</total_points>
+	<total_points>196</total_points>
 	<ST>12</ST>
 	<DX>15</DX>
 	<IQ>11</IQ>
@@ -426,6 +426,47 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 				<attribute_bonus>
 					<attribute>fright check</attribute>
 					<amount>2</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Extra Fatigue Points</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>3</points_per_level>
+				<reference>B16</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Attribute</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>fp</attribute>
+					<amount per_level="yes">1</amount>
+				</attribute_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Extra Hit Points</name>
+				<type>Physical</type>
+				<levels>1</levels>
+				<points_per_level>2</points_per_level>
+				<modifier version="1" enabled="no">
+					<name>Size</name>
+					<cost type="percentage">-10</cost>
+					<levels>1</levels>
+					<affects>total</affects>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>No Fine Manipulators</name>
+					<cost type="percentage">-40</cost>
+					<affects>total</affects>
+				</modifier>
+				<reference>B16</reference>
+				<categories>
+					<category>Advantage</category>
+					<category>Attribute</category>
+				</categories>
+				<attribute_bonus>
+					<attribute>hp</attribute>
+					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
 			<advantage version="2">
@@ -516,117 +557,6 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 				</prereq_list>
 			</advantage>
 			<advantage version="2">
-				<name>Mindlink</name>
-				<type>Mental, Supernatural</type>
-				<modifier version="1">
-					<name>Single person</name>
-					<cost type="points">5</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-					<notes>Container of the Forest of Old</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>2-9 people</name>
-					<cost type="points">10</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-					<notes>@Who@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>10-99 people</name>
-					<cost type="points">20</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-					<notes>@Who@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>100-999 people</name>
-					<cost type="points">30</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-					<notes>@Who@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>1000-9999 people</name>
-					<cost type="points">40</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-					<notes>@Who@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>10000-99999 people</name>
-					<cost type="points">50</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-					<notes>@Who@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Broadcast</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cybernetic</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B69</reference>
-				</modifier>
-				<modifier version="1">
-					<name>Sensory</name>
-					<cost type="percentage">20</cost>
-					<affects>total</affects>
-					<reference>B69</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Universal</name>
-					<cost type="percentage">50</cost>
-					<affects>total</affects>
-					<reference>B69</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Video</name>
-					<cost type="percentage">40</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Cybernetic Only</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Racial</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-					<notes>@Race@</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Sensory Only</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Telecommunication</name>
-					<cost type="percentage">-20</cost>
-					<affects>total</affects>
-					<reference>B70</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Vague</name>
-					<cost type="percentage">-50</cost>
-					<affects>total</affects>
-					<reference>B91</reference>
-				</modifier>
-				<reference>B70</reference>
-				<categories>
-					<category>Advantage</category>
-				</categories>
-			</advantage>
-			<advantage version="2">
 				<name>Rank</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -691,88 +621,169 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 		<advantage_container version="2" open="yes">
 			<name>Disadvantages</name>
 			<advantage version="2">
-				<name>Dependant (Container of the Forest of Old)</name>
-				<type>Social</type>
-				<modifier version="1" enabled="no">
-					<name>Point total</name>
-					<cost type="points">-1</cost>
-					<affects>total</affects>
-					<reference>B131</reference>
-					<notes>100% of your starting points</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Point total</name>
-					<cost type="points">-2</cost>
-					<affects>total</affects>
-					<reference>B131</reference>
-					<notes>75% of your starting points</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Point total</name>
+				<name>Chummy</name>
+				<type>Mental</type>
+				<base_points>-5</base_points>
+				<reference>B126</reference>
+				<notes>React to others at +2; -1 to IQ-based skills when alone</notes>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Clueless</name>
+				<type>Mental</type>
+				<base_points>-10</base_points>
+				<reference>B126</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+				<skill_bonus>
+					<name compare="starts with">savoir-faire</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-4</amount>
+				</skill_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Curious</name>
+				<type>Mental</type>
+				<base_points>-5</base_points>
+				<cr>12</cr>
+				<reference>B129</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Delusion</name>
+				<type>Mental</type>
+				<modifier version="1">
+					<name>Minor: Turtle carries Earth</name>
 					<cost type="points">-5</cost>
 					<affects>total</affects>
-					<reference>B131</reference>
-					<notes>50% of your starting points</notes>
+					<reference>B130</reference>
+					<notes>Reaction -1</notes>
 				</modifier>
 				<modifier version="1" enabled="no">
-					<name>Point total</name>
+					<name>Major: @Belief@</name>
 					<cost type="points">-10</cost>
 					<affects>total</affects>
-					<reference>B131</reference>
-					<notes>25% of your starting points</notes>
+					<reference>B130</reference>
+					<notes>Reaction -2</notes>
 				</modifier>
-				<modifier version="1">
-					<name>Point total</name>
+				<modifier version="1" enabled="no">
+					<name>Severe: Need to restore forest of old</name>
 					<cost type="points">-15</cost>
 					<affects>total</affects>
-					<reference>B131</reference>
-					<notes>0 or fewer points</notes>
+					<reference>B130</reference>
+					<notes>Reaction -3</notes>
+				</modifier>
+				<reference>B130</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Easy to Read</name>
+				<type>Mental</type>
+				<base_points>-10</base_points>
+				<reference>B134</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Honesty</name>
+				<type>Mental</type>
+				<base_points>-10</base_points>
+				<cr>12</cr>
+				<reference>B138</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Sense of Duty</name>
+				<type>Mental</type>
+				<modifier version="1">
+					<name>Friends and Companions</name>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
 				</modifier>
 				<modifier version="1">
-					<name>Appears almost all the time</name>
-					<cost type="multiplier">3</cost>
-					<reference>B36</reference>
-					<notes>15-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears quite often</name>
-					<cost type="multiplier">2</cost>
-					<reference>B36</reference>
-					<notes>12-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears fairly often</name>
-					<cost type="multiplier">1</cost>
-					<reference>B36</reference>
-					<notes>9-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Appears quite rarely</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B36</reference>
-					<notes>6-</notes>
-				</modifier>
-				<modifier version="1" enabled="no">
 					<name>Group</name>
-					<cost type="multiplier">2</cost>
-					<reference>B131</reference>
+					<cost type="points">-5</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
 				</modifier>
 				<modifier version="1" enabled="no">
-					<name>Acquaintance</name>
-					<cost type="multiplier">0.5</cost>
-					<reference>B131</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Friend</name>
-					<cost type="multiplier">1</cost>
-					<reference>B131</reference>
+					<name>@Individual@</name>
+					<cost type="points">-2</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
 				</modifier>
 				<modifier version="1">
-					<name>Loved one</name>
-					<cost type="multiplier">2</cost>
-					<reference>B131</reference>
+					<name>Military</name>
+					<cost type="points">-10</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
 				</modifier>
-				<reference>B131</reference>
+				<modifier version="1" enabled="no">
+					<name>@Entire Race@</name>
+					<cost type="points">-15</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Every Living Being</name>
+					<cost type="points">-20</cost>
+					<affects>total</affects>
+					<reference>B153</reference>
+				</modifier>
+				<reference>B153</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+			</advantage>
+			<advantage version="2">
+				<name>Social Stigma (Ignorant; Emotions)</name>
+				<type>Social</type>
+				<base_points>-5</base_points>
+				<reference>B155</reference>
+				<notes>-1 Reaction</notes>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+				<skill_bonus>
+					<name compare="is">Emotions</name>
+					<specialization compare="is anything"></specialization>
+					<amount>-1</amount>
+				</skill_bonus>
+			</advantage>
+			<advantage version="2">
+				<name>Stress Atavism</name>
+				<type>Mental, Exotic</type>
+				<cr>12</cr>
+				<modifier version="1">
+					<name>Mild</name>
+					<cost type="points">-10</cost>
+					<affects>total</affects>
+					<reference>B156</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Moderate</name>
+					<cost type="points">-15</cost>
+					<affects>total</affects>
+					<reference>B156</reference>
+				</modifier>
+				<modifier version="1" enabled="no">
+					<name>Severe</name>
+					<cost type="points">-20</cost>
+					<affects>total</affects>
+					<reference>B156</reference>
+				</modifier>
+				<reference>B156</reference>
 				<categories>
 					<category>Disadvantage</category>
 				</categories>
@@ -803,36 +814,6 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
-				<name>Stress Atavism</name>
-				<type>Mental, Exotic</type>
-				<cr>12</cr>
-				<modifier version="1">
-					<name>Mild</name>
-					<cost type="points">-10</cost>
-					<affects>total</affects>
-					<reference>B156</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Moderate</name>
-					<cost type="points">-15</cost>
-					<affects>total</affects>
-					<reference>B156</reference>
-				</modifier>
-				<modifier version="1" enabled="no">
-					<name>Severe</name>
-					<cost type="points">-20</cost>
-					<affects>total</affects>
-					<reference>B156</reference>
-				</modifier>
-				<reference>B156</reference>
-				<categories>
-					<category>Disadvantage</category>
-				</categories>
-			</advantage>
-		</advantage_container>
-		<advantage_container version="2" open="yes">
-			<name>Quirks</name>
 		</advantage_container>
 		<advantage version="2">
 			<name>HeisenQuirk</name>
@@ -840,6 +821,9 @@ ZGosdwmA9v793/nbC6C9f3sBtPdvfQH0/wA0aal1W4q88wAAAABJRU5ErkJggg==
 			<levels>5</levels>
 			<points_per_level>-1</points_per_level>
 		</advantage>
+		<advantage_container version="2" open="yes">
+			<name>Quirks</name>
+		</advantage_container>
 	</advantage_list>
 	<skill_list>
 		<skill version="2">
